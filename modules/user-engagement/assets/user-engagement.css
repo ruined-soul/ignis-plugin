@@ -1,0 +1,66 @@
+/* User Engagement Styles */
+.ignis-referral-link {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 5px;
+}
+
+.ignis-referral-link input {
+    width: 70%;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.ignis-referral-link .ignis-copy-link {
+    padding: 8px 15px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.ignis-referral-link .ignis-copy-link:hover {
+    background: #0056b3;
+}
+
+.ignis-bug-report-form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.ignis-bug-report-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.ignis-bug-report-form input,
+.ignis-bug-report-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.ignis-bug-report-form button {
+    padding: 10px 20px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.ignis-bug-report-form button:hover {
+    background: #218838;
+}
