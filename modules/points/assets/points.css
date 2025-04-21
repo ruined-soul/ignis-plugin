@@ -1,0 +1,135 @@
+/* Points Module Styles */
+.ignis-points-toast {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background: #007bff;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    animation: slideIn 0.5s ease-in-out, fadeOut 0.5s ease-in-out 5s forwards;
+    font-size: 1em;
+}
+
+.ignis-points-toast.points {
+    background: #28a745;
+}
+
+.ignis-points-toast.milestone {
+    background: #ffc107;
+    font-weight: bold;
+}
+
+.ignis-scoreboard-container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ignis-scoreboard-container h2 {
+    margin: 0 0 20px;
+    font-size: 1.8em;
+    text-align: center;
+    color: #333;
+}
+
+.ignis-scoreboard-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ignis-scoreboard-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    font-size: 1.1em;
+}
+
+.ignis-scoreboard-list li:last-child {
+    border-bottom: none;
+}
+
+.ignis-scoreboard-list .rank {
+    font-weight: bold;
+    color: #007bff;
+    width: 10%;
+    text-align: center;
+}
+
+.ignis-scoreboard-list .username {
+    flex: 1;
+    color: #333;
+}
+
+.ignis-scoreboard-list .points {
+    font-weight: bold;
+    color: #28a745;
+    width: 20%;
+    text-align: right;
+}
+
+.ignis-scoreboard-list .points::after {
+    content: " 🏆";
+}
+
+.ignis-my-points {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.ignis-my-points h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.ignis-my-points .points-balance {
+    font-size: 2.5em;
+    color: #28a745;
+    margin: 0;
+}
+
+.ignis-my-points .history {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.ignis-my-points .history table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ignis-my-points .history th,
+.ignis-my-points .history td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.ignis-my-points .history th {
+    background: #f1f1f1;
+    font-weight: bold;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
