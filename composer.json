@@ -1,0 +1,24 @@
+{
+    "name": "ignisreborn/ignis-plugin",
+    "description": "Modular plugin for Madara theme with points, currency, and user engagement features",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Ignis",
+            "email": "contact@ignisreborn.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "wp-coding-standards/wpcs": "^2.3",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.7"
+    },
+    "scripts": {
+        "test": "phpunit",
+        "lint": "phpcs --standard=WordPress ."
+    }
+}
