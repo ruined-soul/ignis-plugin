@@ -1,0 +1,33 @@
+# WordPress
+wp-content/uploads/
+wp-content/upgrade/
+wp-content/backup-*/
+wp-content/cache/
+wp-content/*.log
+
+# Composer
+vendor/
+composer.lock
+
+# Node.js
+node_modules/
+package-lock.json
+
+# IDE and Editor Files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build and Test Artifacts
+/tests/coverage/
+.phpunit.result.cache
+
+# Local Config
+wp-config.php
+.env
+*.sql
