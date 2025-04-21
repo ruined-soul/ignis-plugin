@@ -1,0 +1,167 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ignis Plugin 1.0.0\n"
+"POT-Creation-Date: 2025-04-21 12:00+0000\n"
+"PO-Revision-Date: 2025-04-21 12:00+0000\n"
+"Last-Translator: Ignis <contact@ignisreborn.com>\n"
+"Language-Team: Ignis Team\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4\n"
+
+#: ignis-plugin.php:71
+msgid "Ignis Plugin requires WP Manga (Madara-Core) plugin."
+msgstr "Ignis Plugin requires WP Manga (Madara-Core) plugin."
+
+#: modules/admin-panel/admin-panel.php:40
+msgid "Ignis Dashboard"
+msgstr "Ignis Dashboard"
+
+#: modules/admin-panel/admin-panel.php:41 modules/admin-panel/admin-panel.php:78
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: modules/admin-panel/admin-panel.php:47
+msgid "General Settings"
+msgstr "General Settings"
+
+#: modules/admin-panel/admin-panel.php:48
+msgid "Settings"
+msgstr "Settings"
+
+#: modules/admin-panel/admin-panel.php:78
+msgid "Ignis Control Center"
+msgstr "Ignis Control Center"
+
+#: modules/admin-panel/admin-panel.php:85
+msgid "Plugin Stats"
+msgstr "Plugin Stats"
+
+#: modules/admin-panel/admin-panel.php:86
+msgid "Total Points Distributed"
+msgstr "Total Points Distributed"
+
+#: modules/admin-panel/admin-panel.php:87
+msgid "Active Users (Weekly)"
+msgstr "Active Users (Weekly)"
+
+#: modules/admin-panel/admin-panel.php:88
+msgid "Total Store Purchases"
+msgstr "Total Store Purchases"
+
+#: modules/admin-panel/admin-panel.php:90
+msgid "Recent Activity"
+msgstr "Recent Activity"
+
+#: modules/admin-panel/admin-panel.php:93 modules/points/admin.php:82
+#: modules/points/admin.php:126 modules/points/admin.php:157
+msgid "User ID"
+msgstr "User ID"
+
+#: modules/admin-panel/admin-panel.php:94
+msgid "Type"
+msgstr "Type"
+
+#: modules/admin-panel/admin-panel.php:95 modules/points/admin.php:83
+#: modules/points/admin.php:158
+msgid "Action"
+msgstr "Action"
+
+#: modules/admin-panel/admin-panel.php:96 modules/points/admin.php:85
+#: modules/points/admin.php:160
+msgid "Timestamp"
+msgstr "Timestamp"
+
+#: modules/admin-panel/admin-panel.php:100
+msgid "No recent activity"
+msgstr "No recent activity"
+
+#: modules/admin-panel/admin-panel.php:122
+msgid "Settings saved."
+msgstr "Settings saved."
+
+#: modules/admin-panel/admin-panel.php:141
+msgid "Enable Points Module"
+msgstr "Enable Points Module"
+
+#: modules/admin-panel/admin-panel.php:142
+msgid "Enable Currency Module"
+msgstr "Enable Currency Module"
+
+#: modules/admin-panel/admin-panel.php:143
+msgid "Enable Store Module"
+msgstr "Enable Store Module"
+
+#: modules/admin-panel/admin-panel.php:144
+msgid "Enable Airdrop Module"
+msgstr "Enable Airdrop Module"
+
+#: modules/admin-panel/admin-panel.php:145
+msgid "Enable Ranking Module"
+msgstr "Enable Ranking Module"
+
+#: modules/admin-panel/admin-panel.php:146
+msgid "Enable Manga Requests Module"
+msgstr "Enable Manga Requests Module"
+
+#: modules/admin-panel/admin-panel.php:147
+msgid "Enable Premium Usernames Module"
+msgstr "Enable Premium Usernames Module"
+
+#: modules/admin-panel/admin-panel.php:148
+msgid "Enable Custom Themes Module"
+msgstr "Enable Custom Themes Module"
+
+#: modules/admin-panel/admin-panel.php:149
+msgid "Enable Bug Bounty Module"
+msgstr "Enable Bug Bounty Module"
+
+#: modules/admin-panel/admin-panel.php:150
+msgid "Enable Shortener Link Module"
+msgstr "Enable Shortener Link Module"
+
+#: modules/admin-panel/admin-panel.php:151
+msgid "Enable Chatroom Link Module"
+msgstr "Enable Chatroom Link Module"
+
+#: modules/admin-panel/admin-panel.php:152
+msgid "Enable Backup/Restore Module"
+msgstr "Enable Backup/Restore Module"
+
+#: modules/admin-panel/admin-panel.php:154
+msgid "Shortener Private Key"
+msgstr "Shortener Private Key"
+
+#: modules/admin-panel/admin-panel.php:156
+msgid "Chatroom Private Key"
+msgstr "Chatroom Private Key"
+
+#: modules/points/admin.php:40
+msgid "Points Settings"
+msgstr "Points Settings"
+
+#: modules/points/points.php:103
+msgid "Top Users"
+msgstr "Top Users"
+
+#: modules/points/points.php:79
+msgid "reading chapter"
+msgstr "reading chapter"
+
+#: modules/points/points.php:85
+msgid "commenting"
+msgstr "commenting"
+
+#: modules/points/points.php:91
+msgid "logging in"
+msgstr "logging in"
+
+#: modules/points/points.php:97
+msgid "weekly login streak"
+msgstr "weekly login streak"
+
+#: modules/points/points.php:103
+msgid "signing up"
+msgstr "signing up"
