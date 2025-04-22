@@ -1,0 +1,71 @@
+/* Manga Requests Module Styles */
+.ignis-manga-requests {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.ignis-manga-requests h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ignis-manga-requests label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.ignis-manga-requests input[type="text"],
+.ignis-manga-requests textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.ignis-manga-requests textarea {
+    min-height: 100px;
+}
+
+.ignis-manga-requests button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.ignis-manga-requests button:hover {
+    background: #0056b3;
+}
+
+.ignis-manga-requests-toast {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background: #28a745;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    animation: slideIn 0.5s ease-in-out, fadeOut 0.5s ease-in-out 5s forwards;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
