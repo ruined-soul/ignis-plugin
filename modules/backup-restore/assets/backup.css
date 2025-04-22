@@ -1,0 +1,69 @@
+/* Backup Restore Module Styles */
+.ignis-backup {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.ignis-backup h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ignis-backup button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.ignis-backup button:hover {
+    background: #0056b3;
+}
+
+.ignis-backup table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.ignis-backup th,
+.ignis-backup td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.ignis-backup th {
+    background: #e9ecef;
+}
+
+.ignis-backup-toast {
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    background: #28a745;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1001;
+    animation: slideIn 0.5s ease-in-out, fadeOut 0.5s ease-in-out 5s forwards;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); }
+    to { transform: translateX(0); }
+}
+
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+}
