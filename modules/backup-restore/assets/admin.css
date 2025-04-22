@@ -1,0 +1,17 @@
+/* Backup Restore Admin Styles */
+.ignis-backup-admin {
+    max-width: 800px;
+    margin: 20px 0;
+}
+
+.ignis-backup-admin .form-table {
+    margin-bottom: 20px;
+}
+
+.ignis-backup-admin .button {
+    margin-right: 10px;
+}
+
+.ignis-backup-admin .wp-list-table {
+    margin-top: 20px;
+}
