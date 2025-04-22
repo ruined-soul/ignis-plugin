@@ -1,0 +1,59 @@
+/* Ranking Module Styles */
+.ignis-leaderboard {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.ignis-leaderboard h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ignis-leaderboard table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.ignis-leaderboard th,
+.ignis-leaderboard td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.ignis-leaderboard th {
+    background: #f1f1f1;
+    font-weight: bold;
+}
+
+.ignis-leaderboard .rank-1 {
+    background: #ffd700;
+}
+
+.ignis-leaderboard .rank-2 {
+    background: #c0c0c0;
+}
+
+.ignis-leaderboard .rank-3 {
+    background: #cd7f32;
+}
+
+.ignis-leaderboard .refresh-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.ignis-leaderboard .refresh-button:hover {
+    background: #0056b3;
+}
