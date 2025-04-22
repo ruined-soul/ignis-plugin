@@ -120,15 +120,4 @@ class Ignis_Currency {
 
 // Initialize module
 new Ignis_Currency();
-
-// Extend Ignis_Utilities for currency
-class Ignis_Utilities {
-    public static function get_user_currency($user_id) {
-        return (int) get_user_meta($user_id, 'ignis_currency', true);
-    }
-
-    public static function update_user_currency($user_id, $currency) {
-        return update_user_meta($user_id, 'ignis_currency', max(0, (int) $currency));
-    }
-}
 ?>
